@@ -12,7 +12,7 @@ data("mtcars")
 dataStructure <- capture.output(str(mtcars))
 
 # Setting up the random generator seed.
-set.seed(210915) # my son's birthday :-)
+set.seed(15102017) 
 
 # Defining custom training controls with cross validation.
 customTrainControl <- trainControl(method = "cv", number = 10)
